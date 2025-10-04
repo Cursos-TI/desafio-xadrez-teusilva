@@ -19,6 +19,7 @@ int main()
     {
         printf("Cima\n");
         printf("Direita\n");
+        i++;
     }
     printf("\n");
 
