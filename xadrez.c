@@ -5,6 +5,7 @@ int main()
     int torre = 5;
     int bispo = 5;
     int rainha = 8;
+    int cavalo = 2;
 
     printf("Movimento da torre: \n");
     for (int i = 1; i <= torre; i++)
@@ -31,6 +32,17 @@ int main()
         j++;
 
     } while (j <= rainha);
+    printf("\n");
+
+    printf("Movimento do Cavalo:\n");
+    while (--cavalo)
+    {
+        for (int i = 0; i <= cavalo; i++)
+        {
+            printf("Baixo\n");
+        }
+        printf("Esquerda\n");
+    }
 
     return 0;
 }
