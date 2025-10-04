@@ -34,7 +34,7 @@ int main()
     } while (j <= rainha);
     printf("\n");
 
-    printf("Movimento do Cavalo:\n");
+    printf("Movimento do Cavalo:\n"); 
     while (--cavalo)
     {
         for (int i = 0; i <= cavalo; i++)
